@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>difmtrackdl</Name>
+  <Repository>solidprogramming/guiserver</Repository>
+  <Registry>https://hub.docker.com/r/solidprogramming/guiserver</Registry>
+  <Network>br0</Network>
+  <MyIP>192.168.1.18</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>Downloaders: Status:Beta</Category>
+  <WebUI>http://[IP]</WebUI>
+  <TemplateURL/>
+  <Icon>https://forum.howrsebot.de/assets/avatars/TAWyHhuC1jzxNHMa.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1643375601</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/DI FM Track Downloader/</HostDir>
+      <ContainerDir>/app/appdata</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Config Folder Path" Target="/app/appdata" Default="" Mode="rw" Description="Container Path: /app/appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/DI FM Track Downloader/</Config>
+</Container>
